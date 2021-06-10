@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-crawling-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start1": "node csv/index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinYounghoonKim/nodejs-crawling-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinYounghoonKim/nodejs-crawling-playground/issues"
+  },
+  "homepage": "https://github.com/MartinYounghoonKim/nodejs-crawling-playground#readme",
+  "dependencies": {
+    "csv-parse": "^4.16.0",
+    "csv-stringify": "^5.6.2",
+    "puppeteer": "^10.0.0",
+    "xlsx": "^0.17.0"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
